@@ -1,0 +1,104 @@
+{
+    "categorias": {
+        "callback": "funcion_repeat",
+        "msg_categorias": "A continuacion le muestro las categorias que tenemos disponibles",
+        "botones_categorias": {
+            "comida": {
+                "botones_comida": {
+                    "domicilio": {
+                        "botones_domicilio": {
+                            "Comida de Mar": "https://t.me/KitoiBeta1",
+                            "Comida italiana": "https://google.com"
+                        },
+                        "msg_domicilio": "A continuacion le muestro las opciones dentro de comida que tenemos disponibles"
+                    },
+                    "bar": {
+                        "botones_bar": {
+                            "Comida de Mar": "https://t.me/KitoiBeta1",
+                            "Comida italiana": "https://google.com",
+                            "Comida cubana": "https://google.com"
+                        },
+                        "msg_bar": "A continuacion le muestro las opciones dentro de comida que tenemos disponibles"
+                    },
+                    "restaurante": {
+                        "botones_restaurante": {
+                            "Comida de Mar": "https://t.me/KitoiBeta1",
+                            "Comida italiana": "https://google.com",
+                            "Comida cubana": "https://google.com"
+                        },
+                        "msg_restaurante": "A continuacion le muestro las opciones dentro de comida que tenemos disponibles"
+                    }
+                },
+                "msg_comida": "A continuacion le muestro las opciones dentro de comida que tenemos disponibles"
+            },
+            "estilo": {
+                "botones_estilo": {
+                    "barberia": {
+                        "botones_barberia": {
+                            "Salon Morel": "https://t.me/SalonMorell"
+                        },
+                        "msg_barberia": "A continuacion le muestro las opciones dentro de barberia que tenemos disponibles"
+                    },
+                    "peluqueria": {
+                        "botones_peluqueria": {
+                            "Salon Morel": "https://t.me/SalonMorell"
+                        },
+                        "msg_peluqueria": "A continuacion le muestro las opciones dentro de peluqueria que tenemos disponibles"
+                    },
+                    "manicuri": {
+                        "botones_manicuri": {
+                            "Salon Morel": "https://t.me/SalonMorell"
+                        },
+                        "msg_manicuri": "A continuacion le muestro las opciones dentro de manicuri que tenemos disponibles"
+                    }
+                },
+                "msg_estilo": "A continuacion le muestro las opciones dentro de estilo que tenemos disponibles"
+            },
+            "transporte": {
+                "botones_transporte": {
+                    "auto": {
+                        "botones_auto": {
+                            "Juan taxista": "https://google.com",
+                            "El cucarachon": "https://google.com"
+                        },
+                        "msg_auto": "A continuacion le muestro las opciones dentro de auto que tenemos disponibles"
+                    },
+                    "moto": {
+                        "botones_moto": {
+                            "Juan taxista": "https://google.com",
+                            "El cucarachon": "https://google.com"
+                        },
+                        "msg_moto": "A continuacion le muestro las opciones dentro de moto que tenemos disponibles"
+                    },
+                    "motoneta": {
+                        "botones_motoneta": {
+                            "Juan taxista": "https://google.com",
+                            "El cucarachon": "https://google.com"
+                        },
+                        "msg_motoneta": "A continuacion le muestro las opciones dentro de motoneta que tenemos disponibles"
+                    },
+                    "camion": {
+                        "botones_camion": {
+                            "Juan taxista": "https://google.com",
+                            "El cucarachon": "https://google.com"
+                        },
+                        "msg_camion": "A continuacion le muestro las opciones dentro de camion que tenemos disponibles"
+                    }
+                },
+                "msg_transporte": "A continuacion le muestro las opciones dentro de transporte que tenemos disponibles"
+            },
+            "compra-venta": {
+                "callback": "funcion_repeat",
+                "botones_compra-venta": {
+                    "ropa": {
+                        "botones_ropa": {
+                            "Ropa Juvenil": "https://t.me/+-HQUf4HSRHFiOTVh"
+                        },
+                        "msg_ropa": "A continuacion le muestro las opciones dentro de ropa que tenemos disponibles"
+                    }
+                },
+                "msg_compra-venta": "A continuacion le muestro las opciones dentro de compra/venta que tenemos disponibles"
+            }
+        }
+    }
+}
