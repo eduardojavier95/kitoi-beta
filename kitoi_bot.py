@@ -254,7 +254,7 @@ def procesar_opcion_negocio():
 def iniciar_web_server():
     bot.remove_webhook()
     time.sleep(1)
-    bot.set_webhook(url=f"https://{APP}.heroku.com")
+    bot.set_webhook(url=f"https://{APP}.herokuapp.com")
     serve(web_server, host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
 
 
@@ -268,6 +268,7 @@ if __name__ == "__main__":
     """_summary_
     """
     print("Iniciando bot")
+    print(os.environ.get("DYNO_RAM"))
     if os.environ.get("DYNO_RAM"):
         hilo = threading.Thread(name="hilo_web_server",
                                 target=iniciar_web_server)
