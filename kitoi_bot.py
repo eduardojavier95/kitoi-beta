@@ -6,8 +6,8 @@ import telebot
 from telebot import apihelper
 from telebot.types import InlineKeyboardMarkup  # para crear botonera inline
 from telebot.types import InlineKeyboardButton  # para definir botones inline
-from .config import *
-from .utils import funcion_repeat, generar_botones, get_all_keys, get_btn_and_msg, get_categorias, get_list_categorias, get_list_subcategorias, get_subcategorias
+from configuracion_bot import *
+from utils import funcion_repeat, generar_botones, get_all_keys, get_btn_and_msg, get_categorias, get_list_categorias, get_list_subcategorias, get_subcategorias
 from flask import Flask, request
 from waitress import serve
 
