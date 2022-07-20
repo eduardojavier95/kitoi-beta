@@ -53,10 +53,8 @@ def cmd_start(message) -> None:
     """Muestra un mensaje con botones inline (a continuacion del mensaje)"""
     markup = InlineKeyboardMarkup()
     b1 = InlineKeyboardButton("Categorias", callback_data="categorias")
-    b_menu = InlineKeyboardButton("Menu", callback_data="menu")
     b_cerrar = InlineKeyboardButton("Cerrar", callback_data="cerrar")
-    markup.add(b1)
-    markup.add(b_menu, b_cerrar)
+    markup.add(b1, b_cerrar)
     msg = """\
         <b>Bienvenido al bot</b> que no querra volver a olvidar nunca. \n\n\
     Aqui podras buscar lo que gustes de manera mas rapida, organizado 
@@ -78,7 +76,6 @@ def cmd_start(message) -> None:
 # #         bot.register_next_step_handler(msg, elegir_subcategoria)
 # #     else:
 # #         help_message(message)
-        
 
 
 # # def elegir_subcategoria(message):
@@ -187,8 +184,6 @@ Espero que le sea de ayuda."""
 
     else:
         bot.reply_to(message, help_msg)
-
-
 
 
 # def procesar_nombre_negocio(message):
