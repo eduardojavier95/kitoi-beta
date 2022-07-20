@@ -42,7 +42,6 @@ def get_btn_and_msg(obj: dict, name_key: str, with_msg: bool = True) -> dict:
                                     obj, cat, name_key)
                                 
     dict_botones_and_msg["btn"] = generar_botones(botones)
-    print(dict_botones_and_msg)
 
     return dict_botones_and_msg if with_msg else dict_botones_and_msg["btn"]
 
